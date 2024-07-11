@@ -96,3 +96,13 @@ Session ID: 1618d296d674af121b5e6596dc394847
 2024-07-11 16:45:29 INFO  UI.LoginPageTest - Обязательное поле пароля
 2024-07-11 16:45:29 INFO  UI.LoginPageTest - Кнопка входа в систему
 2024-07-11 16:45:30 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-11 17:29:58 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-11 17:31:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-11 17:31:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-11 17:31:50 ERROR UI.LoginPageTest - Вышла ошибка во время теста: Expected condition failed: waiting for visibility of element located by By.name: Username (tried for 20 second(s) with 500 milliseconds interval)

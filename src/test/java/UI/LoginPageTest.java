@@ -74,8 +74,8 @@ public class LoginPageTest {
         }
     }
 
-    @Test(description = "Негативный тест для авторизации")
-    public void testLoginWithInvalidCredentials() {
+    @Test(description = "Негативный тест для авторизации с паролем")
+    public void testPasswordWithInvalidCredentials() {
         try {
             WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
             assertNotNull(loginInnField);
@@ -101,6 +101,39 @@ public class LoginPageTest {
             String actualErrorText = errorMessage.getText();
             assertTrue(actualErrorText.contains(expectedErrorText), "Неправильный логин или пароль.");
         } catch (Exception e) {
+            log.error("Вышла ошибка во время теста: " + e.getMessage());
+            throw e;
+        }
+    }
+
+    @Test(description = "Негативный тест авторизации с ИНН")
+    public void testInnWithInvalidCredentials(){
+        try{
+            WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
+            assertNotNull(loginInnField);
+            log.info("Обязательное поле ИНН");
+
+            WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
+            assertNotNull(passwordField);
+            log.info("Обязательное поле пароля");
+
+            WebElement clickBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
+            assertNotNull(clickBtn);
+            log.info("Кнопка входа в систему");
+
+            loginInnField.sendKeys("22405200000946716");
+            passwordField.sendKeys("Linux7788");
+            clickBtn.click();
+
+            WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Неправильный логин или пароль.']")));
+            assertNotNull(errorMessage);
+            log.info("Сообщение об ошибке авторизации отображается");
+
+            String expectedErrorText = "Неправильный логин или пароль.";
+            String actualErrorText = errorMessage.getText();
+            assertTrue(actualErrorText.contains(expectedErrorText), "Неправильный логин или пароль.");
+        }
+        catch (Exception e){
             log.error("Вышла ошибка во время теста: " + e.getMessage());
             throw e;
         }
