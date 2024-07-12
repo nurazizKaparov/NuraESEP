@@ -24,7 +24,7 @@ public class LoginOfEsi {
     private static final Logger log = LoggerFactory.getLogger(LoginOfEsi.class);
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -32,8 +32,8 @@ public class LoginOfEsi {
     }
 
     @Test(description = "Тест для регистрации через ЕСИ")
-    public void testLoginEsi(){
-        try{
+    public void testLoginEsi() {
+        try {
             WebElement buttonEsiField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='ЕСИ-Облако']")));
             assertNotNull(buttonEsiField);
             buttonEsiField.click();
@@ -79,7 +79,7 @@ public class LoginOfEsi {
     }
 
     @AfterClass
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 }

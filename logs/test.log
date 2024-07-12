@@ -1,108 +1,251 @@
-2024-07-11 14:58:56 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 09:04:24 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Переход выполнен
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Переключен язык на РУС
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Заголовок найден
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Поле для ввода ИНН найдено
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - ИНН введен
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Нажата кнопка для перехода к вводу пароля
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Сообщение о не регистрации в ЕСИ отображается
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Текст сообщения: Вы не зарегистрировались в ЕСИ
-2024-07-11 14:58:59 INFO  UI.LoginOfEsi - Тест успешно пройден
-2024-07-11 15:13:27 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 09:04:27 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 09:04:27 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 09:04:27 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 09:04:28 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 09:04:29 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 09:04:29 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 09:04:29 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 09:04:30 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 09:04:31 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 09:04:31 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 09:04:31 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 09:04:32 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:11:18 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 15:13:29 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
-2024-07-11 15:14:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 15:11:21 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:11:21 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:11:21 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:11:23 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:11:24 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 15:11:24 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 15:11:24 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 15:11:25 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 15:11:26 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:11:26 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:11:26 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:11:27 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:11:29 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:11:29 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:11:29 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:11:29 INFO  UI.LoginPageTest - Сообщение об ошибке
+2024-07-12 15:16:23 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 15:14:26 INFO  UI.LoginPageTest - ИНН заполнен
-2024-07-11 15:14:26 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
-2024-07-11 15:50:37 INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
-
-2024-07-11 15:50:39 INFO  UI.LoginOfEsi - Переход выполнен
-2024-07-11 15:50:39 INFO  UI.LoginOfEsi - Переключен язык на РУС
-2024-07-11 15:50:39 INFO  UI.LoginOfEsi - Заголовок найден
-2024-07-11 15:50:40 INFO  UI.LoginOfEsi - Поле для ввода ИНН найдено
-2024-07-11 15:50:40 INFO  UI.LoginOfEsi - ИНН введен
-2024-07-11 15:50:40 INFO  UI.LoginOfEsi - Нажата кнопка для перехода к вводу пароля
-2024-07-11 15:50:40 INFO  UI.LoginOfEsi - Сообщение о не регистрации в ЕСИ отображается
-2024-07-11 15:50:40 INFO  UI.LoginOfEsi - Текст сообщения: Вы не зарегистрировались в ЕСИ
-2024-07-11 15:50:40 INFO  UI.LoginOfEsi - Тест успешно пройден
-2024-07-11 15:51:48 INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
-
-2024-07-11 15:51:50 INFO  UI.LoginPageTest - ИНН заполнен
-2024-07-11 15:51:50 INFO  UI.LoginPageTest - Пароль прописан
-2024-07-11 15:51:50 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
-2024-07-11 15:51:51 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
-2024-07-11 16:37:04 INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
-
-2024-07-11 16:37:07 INFO  UI.LoginPageTest - Обязательное поле ИНН
-2024-07-11 16:37:07 INFO  UI.LoginPageTest - Обязательное поле пароля
-2024-07-11 16:37:07 INFO  UI.LoginPageTest - Кнопка входа в систему
-2024-07-11 16:37:29 ERROR UI.LoginPageTest - Вышла ошибка во врема теста: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'alert-danger')] (tried for 20 second(s) with 500 milliseconds interval)
+2024-07-12 15:16:26 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:16:26 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:16:26 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:16:47 ERROR UI.LoginPageTest - Вышла ошибка во время теста: Expected condition failed: waiting for visibility of element located by By.xpath: //div[text()='Неправильный логин или пароль.'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59089/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1618d296d674af121b5e6596dc394847
-2024-07-11 16:41:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50065/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 785ffe12e878cfe7f930be38cc9c4662
+2024-07-12 15:16:49 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 15:16:49 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 15:16:49 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 15:16:53 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 15:16:55 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:16:55 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:16:55 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:16:57 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:17:01 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:17:01 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:17:01 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:17:04 INFO  UI.LoginPageTest - Сообщение об ошибке
+2024-07-12 15:18:54 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 16:41:47 INFO  UI.LoginPageTest - Обязательное поле ИНН
-2024-07-11 16:41:47 INFO  UI.LoginPageTest - Обязательное поле пароля
-2024-07-11 16:41:47 INFO  UI.LoginPageTest - Кнопка входа в систему
-2024-07-11 16:41:48 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
-2024-07-11 16:42:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 15:18:58 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:18:58 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:18:59 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:19:00 ERROR UI.LoginPageTest - Вышла ошибка во время теста: element click intercepted: Element <button type="submit" class="btn btn-primary w-100">...</button> is not clickable at point (456, 846). Other element would receive the click: <a href="tel:116" class="a-bottom ps-15">...</a>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b638d6def43fb5fa9946c43033575d85, clickElement {id=f.57685D43A24DBCFD049D2AEBC3372196.d.6682237715A061238C7C642EEEE483EE.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50345/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b638d6def43fb5fa9946c43033575d85)] -> xpath: //button[@class='btn btn-primary w-100']]
+Session ID: b638d6def43fb5fa9946c43033575d85
+2024-07-12 15:19:02 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 15:19:02 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 15:19:02 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 15:19:05 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:19:05 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:19:05 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:19:49 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 16:42:27 INFO  UI.LoginPageTest - Обязательное поле ИНН
-2024-07-11 16:42:27 INFO  UI.LoginPageTest - Обязательное поле пароля
-2024-07-11 16:42:27 INFO  UI.LoginPageTest - Кнопка входа в систему
-2024-07-11 16:42:28 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
-2024-07-11 16:42:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 15:19:52 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:19:52 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:19:52 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:19:55 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:19:57 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 15:19:57 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 15:19:57 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 15:19:59 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 15:20:02 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:20:02 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:20:02 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:20:06 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:20:08 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:20:08 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:20:08 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:20:09 INFO  UI.LoginPageTest - Сообщение об ошибке
+2024-07-12 15:20:42 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 16:42:47 INFO  UI.LoginPageTest - Обязательное поле ИНН
-2024-07-11 16:42:47 INFO  UI.LoginPageTest - Обязательное поле пароля
-2024-07-11 16:42:47 INFO  UI.LoginPageTest - Кнопка входа в систему
-2024-07-11 16:42:48 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
-2024-07-11 16:43:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 15:20:45 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:20:45 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:20:45 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:20:48 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:20:52 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 15:20:52 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 15:20:52 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 15:20:56 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:20:57 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:20:57 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:21:15 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 16:43:03 INFO  UI.LoginPageTest - Обязательное поле ИНН
-2024-07-11 16:43:03 INFO  UI.LoginPageTest - Обязательное поле пароля
-2024-07-11 16:43:03 INFO  UI.LoginPageTest - Кнопка входа в систему
-2024-07-11 16:43:05 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
-2024-07-11 16:43:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 15:21:20 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:21:20 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:21:20 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:21:22 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:21:25 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 15:21:25 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 15:21:25 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 15:21:26 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 15:21:28 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 15:21:28 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 15:21:28 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:21:30 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 15:21:33 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:21:33 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 15:21:33 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 15:21:38 INFO  UI.LoginPageTest - Сообщение об ошибке
+2024-07-12 16:02:05 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 16:43:17 INFO  UI.LoginPageTest - ИНН заполнен
-2024-07-11 16:43:17 INFO  UI.LoginPageTest - Пароль прописан
-2024-07-11 16:43:17 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
-2024-07-11 16:43:18 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
-2024-07-11 16:45:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 16:02:08 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:02:08 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:02:08 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:02:10 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:16:55 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 16:45:27 INFO  UI.LoginPageTest - ИНН заполнен
-2024-07-11 16:45:27 INFO  UI.LoginPageTest - Пароль прописан
-2024-07-11 16:45:27 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
-2024-07-11 16:45:27 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
-2024-07-11 16:45:29 INFO  UI.LoginPageTest - Обязательное поле ИНН
-2024-07-11 16:45:29 INFO  UI.LoginPageTest - Обязательное поле пароля
-2024-07-11 16:45:29 INFO  UI.LoginPageTest - Кнопка входа в систему
-2024-07-11 16:45:30 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
-2024-07-11 17:29:58 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 16:16:58 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-12 16:16:58 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-12 16:16:58 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-12 16:17:01 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:17:46 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 17:31:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 16:17:49 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-12 16:17:49 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-12 16:17:49 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-12 16:17:51 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:18:03 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 17:31:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+2024-07-12 16:18:05 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:18:05 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:18:05 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:18:07 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:18:09 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 16:18:09 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 16:18:09 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 16:18:10 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 16:18:12 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-12 16:18:12 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-12 16:18:12 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-12 16:18:13 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:18:16 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:18:16 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:18:16 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:18:19 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:18:21 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:18:21 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:18:21 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:18:23 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:18:25 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 16:18:25 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 16:18:25 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:18:27 INFO  UI.LoginPageTest - Поля не заполнены
+2024-07-12 16:19:34 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
-2024-07-11 17:31:50 ERROR UI.LoginPageTest - Вышла ошибка во время теста: Expected condition failed: waiting for visibility of element located by By.name: Username (tried for 20 second(s) with 500 milliseconds interval)
+2024-07-12 16:19:38 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-12 16:19:38 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-12 16:19:38 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-12 16:19:40 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:25:05 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-12 16:25:08 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-12 16:25:09 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-12 16:25:09 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-12 16:25:12 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:28:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-12 16:28:05 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:28:05 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:28:05 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:28:06 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:28:09 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 16:28:09 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 16:28:09 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 16:28:11 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 16:28:13 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:28:13 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:28:13 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:28:15 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:28:17 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:28:17 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:28:17 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:28:20 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:28:22 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 16:28:22 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 16:28:22 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:28:24 INFO  UI.LoginPageTest - Поля не заполнены
+2024-07-12 16:29:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-12 16:29:04 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:29:04 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:29:04 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:29:06 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:29:08 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-12 16:29:08 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-12 16:29:08 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-12 16:29:10 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-12 16:29:12 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-12 16:29:12 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-12 16:29:12 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-12 16:29:14 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:29:16 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:29:16 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:29:16 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:29:18 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:29:21 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-12 16:29:21 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-12 16:29:21 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:29:23 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:29:26 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-12 16:29:26 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-12 16:29:26 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-12 16:29:27 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-12 16:29:29 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 16:29:29 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-12 16:29:29 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-12 16:29:30 INFO  UI.LoginPageTest - Поля не заполнены
+2024-07-12 16:32:26 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-12 16:33:01 ERROR UI.LoginPageTest - Error message not found: Поле является обязательным к заполнению
+2024-07-12 16:33:29 ERROR UI.LoginPageTest - Error message not found: Неправильный логин или пароль.
