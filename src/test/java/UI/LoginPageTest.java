@@ -18,6 +18,7 @@ import java.time.Duration;
 
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
+import static org.testng.AssertJUnit.assertEquals;
 
 public class LoginPageTest {
 
@@ -108,8 +109,8 @@ public class LoginPageTest {
     }
 
     @Test(description = "Тест для проверки авторизации с некорректным ИНН")
-    public void testInnWithInvalidCredentials(){
-        try{
+    public void testInnWithInvalidCredentials() {
+        try {
             WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
             assertNotNull(loginInnField);
             log.info("Обязательное поле ИНН");
@@ -133,15 +134,14 @@ public class LoginPageTest {
             String expectedErrorText = "Неправильный логин или пароль.";
             String actualErrorText = errorMessage.getText();
             assertTrue(actualErrorText.contains(expectedErrorText), "Неправильный логин или пароль.");
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             log.error("Вышла ошибка во время теста: " + e.getMessage());
             throw e;
         }
     }
 
     @Test(description = "Тест для проверки входа с пустыми учетными данными")
-    public void testWithInvalidCredentials(){
+    public void testWithInvalidCredentials() {
         try {
             WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
             assertNotNull(loginInnField);
@@ -166,8 +166,7 @@ public class LoginPageTest {
             String expectedErrorText = "Поле является обязательным к заполнению";
             String actualErrorText = errorMessage.getText();
             assertTrue(actualErrorText.contains(expectedErrorText), "Поле является обязательным к заполнению");
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             log.error("Ошибка во время теста: " + e.getMessage());
             throw e;
         }
@@ -206,8 +205,8 @@ public class LoginPageTest {
     }
 
     @Test(description = "Проверка входа с пробелами в начале и конце ИНН пользователя")
-    public void testLoginWithSpace(){
-        try{
+    public void testLoginWithSpace() {
+        try {
             WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
             assertNotNull(loginInnField);
             log.info("Поле Логина найдено");
@@ -216,7 +215,7 @@ public class LoginPageTest {
             assertNotNull(passwordField);
             log.info("Поле ввода пароля найдено");
 
-            WebElement clickBtn =  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
+            WebElement clickBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
             assertNotNull(clickBtn);
             log.info("Кнопка успешно нажата");
 
@@ -231,15 +230,14 @@ public class LoginPageTest {
             String expectedErrorText = "Неправильный логин или пароль."; // Убедитесь, что это правильный текст ошибки
             String actualErrorText = errorMessage.getText();
             assertTrue(actualErrorText.contains(expectedErrorText), "Неправильный логин или пароль.");
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             log.error("Ошибка: " + e.getMessage());
         }
     }
 
     @Test(description = "Проверка входа с пробелами в начале и конце пароля пользователя")
-    public void testPasswordWithSpace(){
-        try{
+    public void testPasswordWithSpace() {
+        try {
             WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
             assertNotNull(loginInnField);
             log.info("Поле Логина найдено");
@@ -248,7 +246,7 @@ public class LoginPageTest {
             assertNotNull(passwordField);
             log.info("Поле ввода пароля найдено");
 
-            WebElement clickBtn =  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
+            WebElement clickBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
             assertNotNull(clickBtn);
             log.info("Кнопка успешно нажата");
 
@@ -263,10 +261,95 @@ public class LoginPageTest {
             String expectedErrorText = "Неправильный логин или пароль."; // Убедитесь, что это правильный текст ошибки
             String actualErrorText = errorMessage.getText();
             assertTrue(actualErrorText.contains(expectedErrorText), "Неправильный логин или пароль.");
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             log.error("Ошибка: " + e.getMessage());
         }
+    }
+
+    @Test(description = "Проверка входа с действительным именем пользователя и пустым полем пароля")
+    public void testLoginWithEmptyPassword() {
+        try {
+            WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
+            assertNotNull(loginInnField);
+            log.info("Поле логина найдено");
+
+            WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
+            assertNotNull(passwordField);
+            log.info("Поле ввода пароля найдено");
+
+            WebElement clickBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
+            assertNotNull(clickBtn);
+            log.info("Кнопка успешно нажата");
+
+            loginInnField.sendKeys("22405200000946716");
+            passwordField.sendKeys("");
+            clickBtn.click();
+
+            WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Поле является обязательным к заполнению']")));
+            assertNotNull(errorMessage);
+            log.info("Сообщение об ошибке авторизации отображается");
+
+            String expectedErrorText = "Поле является обязательным к заполнению";
+            String actualErrorText = errorMessage.getText();
+            assertTrue(actualErrorText.contains(expectedErrorText), "Сообщение об ошибке не отображается правильно.");
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+            throw e;
+        }
+    }
+
+    @Test(description = "Проверка сохранения имени пользователя и пароля при нажатии кнопки Запомнить меня")
+    public void testLoginWithRememberMe() {
+        try {
+            WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
+            assertNotNull(loginInnField);
+            log.info("Поле логина найдено");
+
+            WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
+            assertNotNull(passwordField);
+            log.info("Поле ввода пароля найдено");
+
+            WebElement rememberMeCheckbox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("RememberMe")));
+            assertNotNull(rememberMeCheckbox);
+            log.info("Чекбокс 'Запомнить меня' найден");
+
+            WebElement loginButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
+            assertNotNull(loginButton);
+            log.info("Кнопка входа найдена");
+
+            // Ввод данных
+            String username = "22405200000946716";
+            String password = "Linux7788.";
+            loginInnField.sendKeys(username);
+            passwordField.sendKeys(password);
+            rememberMeCheckbox.click();
+            loginButton.click();
+
+            // Закрываем браузер
+            driver.quit();
+
+            // Открываем браузер снова
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Увеличьте время ожидания
+            driver.get("https://testcabinet.salyk.kg/account/login"); // Замените на реальный URL страницы
+
+            // Проверка, что поля заполнены
+            loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
+            passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
+            assertEquals(loginInnField.getAttribute("value"), username, "Имя пользователя не сохранилось");
+            assertEquals(passwordField.getAttribute("value"), password, "Пароль не сохранился");
+
+            log.info("Имя пользователя и пароль успешно сохранены при нажатии кнопки 'Запомнить меня'");
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+            throw e;
+        }
+    }
+
+    @Test(description = "")
+    public void testWithForgotPassword(){
+//a[text()='Забыли пароль?']
     }
 
     @AfterMethod
