@@ -1,6 +1,7 @@
 package UI;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -347,10 +348,137 @@ public class LoginPageTest {
         }
     }
 
-    @Test(description = "")
-    public void testWithForgotPassword(){
-//a[text()='Забыли пароль?']
+
+    @Test(description = "Проверка сообщения об ошибке при несовпадении паролей")
+    public void testPasswordMismatchError() {
+        try {
+            WebElement forgotPasswordBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Забыли пароль?']")));
+            assertNotNull(forgotPasswordBtn);
+            forgotPasswordBtn.click();
+            log.info("Кнопка 'Забыли пароль?' успешно нажата");
+
+            WebElement resetPasswordTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='Забыли пароль?']")));
+            assertNotNull(resetPasswordTitle);
+            log.info("Страница восстановления пароля открылась успешно.");
+
+            WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
+            assertNotNull(loginInnField);
+            log.info("Поле ввода ИНН найдено.");
+
+            WebElement resetPasswordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
+            assertNotNull(resetPasswordField);
+            log.info("Поле ввода нового пароля найдено.");
+
+            WebElement confirmPasswordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("ConfirmPassword")));
+            assertNotNull(confirmPasswordField);
+            log.info("Поле повторного ввода пароля найдено.");
+
+            WebElement resetPasswordBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Сбросить']")));
+            assertNotNull(resetPasswordBtn);
+            log.info("Кнопка 'Сбросить' найдена.");
+
+            // Тестирование случая, когда пароли не совпадают
+            loginInnField.sendKeys("22905200300907523");
+            resetPasswordField.sendKeys("YameteKudasai");
+            confirmPasswordField.sendKeys("YameteKudasa"); // Несовпадающий пароль
+            resetPasswordBtn.click();
+
+            // Убедиться, что система отображает сообщение об ошибке "Пароли не совпадают"
+            WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Пароли не совпадают']")));
+            assertNotNull(errorMessage);
+            log.info("Сообщение об ошибке 'Пароли не совпадают' отображается");
+
+            String expectedErrorText = "Пароли не совпадают"; // Убедитесь, что это правильный текст сообщения
+            String actualErrorText = errorMessage.getText();
+            assertTrue(actualErrorText.contains(expectedErrorText), "Сообщение об ошибке 'Пароли не совпадают' отображается правильно.");
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+            throw e;
+        }
     }
+
+    @Test(description = "Проверка успешного сброса пароля")
+    public void testSuccessfulPasswordReset() {
+        try {
+            WebElement forgotPasswordBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Забыли пароль?']")));
+            assertNotNull(forgotPasswordBtn);
+            forgotPasswordBtn.click();
+            log.info("Кнопка 'Забыли пароль?' успешно нажата");
+
+            WebElement resetPasswordTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='Забыли пароль?']")));
+            assertNotNull(resetPasswordTitle);
+            log.info("Страница восстановления пароля открылась успешно.");
+
+            WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
+            assertNotNull(loginInnField);
+            log.info("Поле ввода ИНН найдено.");
+
+            WebElement resetPasswordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
+            assertNotNull(resetPasswordField);
+            log.info("Поле ввода нового пароля найдено.");
+
+            WebElement confirmPasswordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("ConfirmPassword")));
+            assertNotNull(confirmPasswordField);
+            log.info("Поле повторного ввода пароля найдено.");
+
+            WebElement resetPasswordBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Сбросить']")));
+            assertNotNull(resetPasswordBtn);
+            log.info("Кнопка 'Сбросить' найдена.");
+
+            // Тестирование случая, когда пароли совпадают
+            loginInnField.sendKeys("22905200300907523");
+            resetPasswordField.sendKeys("YameteKudasai");
+            confirmPasswordField.sendKeys("YameteKudasai"); // Совпадающий пароль
+            Thread.sleep(1000);
+            resetPasswordBtn.click();
+
+            // Убедиться, что система отображает сообщение об успешном сбросе пароля
+            WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='notyf__message']")));
+            assertNotNull(successMessage);
+            log.info("Сообщение об успешном сбросе отображается");
+            Thread.sleep(1000);
+
+            String expectedSuccessText = "Пароль успешно сброшен"; // Убедитесь, что это правильный текст сообщения
+            String actualSuccessText = successMessage.getText();
+            assertTrue(actualSuccessText.contains(expectedSuccessText), "Сообщение об успешном сбросе отображается правильно.");
+            Thread.sleep(1000);
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+
+        }
+    }
+
+    @Test(description = "Проверка отображения символов пароля")
+    public void testPasswordDisplay() {
+        try {
+            // Находим поле пароля
+            WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
+            assertNotNull(passwordField);
+
+            // Вводим пароль
+            String password = "12334";
+            passwordField.sendKeys(password);
+            log.info("Этап ввода пароля: " + password);
+
+            // Ждем небольшую задержку для корректного отображения звездочек или точек
+            Thread.sleep(1000);
+
+            // Получаем введенный пароль с помощью JavaScript
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            String enteredPassword = (String) js.executeScript("return arguments[0].value;", passwordField);
+
+            // Проверяем, что введенные символы пароля отображаются в виде звездочек или точек
+            assertTrue(enteredPassword.matches("[\\*\\●]+"), "Символы пароля отображаются в виде звездочек или точек");
+
+            log.info("Проверка отображения символов пароля выполнена успешно");
+
+        } catch (Exception e) {
+            log.error("Ошибка при проверке отображения символов пароля: " + e.getMessage());
+        }
+    }
+
+    @Test
+
 
     @AfterMethod
     public void tearDownMethod() {
