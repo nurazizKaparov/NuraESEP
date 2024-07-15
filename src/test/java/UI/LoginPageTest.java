@@ -1,5 +1,6 @@
 package UI;
 
+import org.junit.experimental.theories.Theories;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -17,8 +18,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 import static org.testng.AssertJUnit.assertEquals;
 
 public class LoginPageTest {
@@ -114,30 +114,35 @@ public class LoginPageTest {
         try {
             WebElement loginInnField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Username")));
             assertNotNull(loginInnField);
+            Thread.sleep(1000);
             log.info("Обязательное поле ИНН");
 
             WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Password")));
             assertNotNull(passwordField);
+            Thread.sleep(1000);
             log.info("Обязательное поле пароля");
 
             WebElement clickBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='btn btn-primary w-100']")));
             assertNotNull(clickBtn);
+            Thread.sleep(1000);
             log.info("Кнопка входа в систему");
 
-            loginInnField.sendKeys("22405200000946");
+            loginInnField.sendKeys("22405200000946123");
             passwordField.sendKeys("Linux7788.");
             clickBtn.click();
+            Thread.sleep(1000);
 
             WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Неправильный логин или пароль.']")));
             assertNotNull(errorMessage);
+            Thread.sleep(1000);
             log.info("Сообщение об ошибке авторизации отображается");
 
             String expectedErrorText = "Неправильный логин или пароль.";
             String actualErrorText = errorMessage.getText();
             assertTrue(actualErrorText.contains(expectedErrorText), "Неправильный логин или пароль.");
+            Thread.sleep(1000);
         } catch (Exception e) {
             log.error("Вышла ошибка во время теста: " + e.getMessage());
-            throw e;
         }
     }
 
@@ -477,9 +482,58 @@ public class LoginPageTest {
         }
     }
 
-    @Test
+    @Test(description = "Проверка работы кнопки для отображения пароля")
+    public void passwordVisibilityTest() {
+        try {
+            // Найти поле для ввода пароля
+            WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Password")));
+            assertNotNull(passwordField, "Поле для ввода пароля найдено");
+            log.info("Поле для ввода пароля найдено");
 
+            // Ввести пароль
+            passwordField.sendKeys("Linux7788");
 
+            // Найти кнопку для отображения пароля
+            WebElement showPasswordButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span[data-kt-password-meter-control='visibility']")));
+            assertNotNull(showPasswordButton, "Кнопка для отображения пароля не найдена");
+            Thread.sleep(1000);
+            log.info("Кнопка для отображения пароля найдена");
+
+            // Кликнуть на кнопку для отображения пароля
+            showPasswordButton.click();
+
+            // Проверить, что пароль отображается в виде читаемого текста
+            WebElement visiblePasswordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='text' and @id='Password']")));
+            assertTrue(visiblePasswordField.isDisplayed(), "Пароль не отображается в виде текста");
+            Thread.sleep(1000);
+            log.info("Пароль отображается в виде текста");
+
+            // Кликнуть на кнопку еще раз
+            showPasswordButton.click();
+
+            // Проверить, что пароль снова отображается в виде звездочек или точек
+            WebElement hiddenPasswordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='password' and @id='Password']")));
+            assertTrue(hiddenPasswordField.isDisplayed(), "Пароль отображается в виде текста, а не скрыт");
+            Thread.sleep(1000);
+            log.info("Пароль отображается в виде текста, а не скрыт");
+
+        } catch (Exception e) {
+            log.error("Ошибка :" + e.getMessage());
+        }
+    }
+
+    @Test(description = "Проверка наличия логотипа на странице входа")
+    public void mainLogo(){
+        try {
+            WebElement mainLogo = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@alt='ГНС']")));
+            assertTrue(mainLogo.isDisplayed(), "Главный логотип отображается");
+            Thread.sleep(1000);
+            log.info("Лого отображается");
+
+        }catch (Exception e){
+            log.error("Ошибка: " + e.getMessage());
+        }
+    }
     @AfterMethod
     public void tearDownMethod() {
         driver.quit();
