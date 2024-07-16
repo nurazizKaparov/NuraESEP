@@ -536,9 +536,58 @@ public class LoginPageTest {
         }
     }
 
-    @Test
+    @Test(description = "Проверка наличия и функциональности ссылки Зарегистрируйтесь")
+    public void testRegistrationLinkBtn() {
+        try {
+            WebElement registrationLinkBtn = driver.findElement(By.xpath("//a[contains(@class, 'li-tab') and contains(@class, 'btn-active-color-primary') and @href='/account/register']"));
+            Assert.assertNotNull(registrationLinkBtn, "Элемент 'Зарегистрироваться' не найден");
+            log.info("Элемент 'Зарегистрироваться' найден");
+            Thread.sleep(1000);
 
+            registrationLinkBtn.click();
+            log.info("Переход выполнен");
 
+            WebElement registrationPage = driver.findElement(By.xpath("//p[@class='fw-bold fs-2']"));
+            Assert.assertNotNull(registrationPage, "Элемент на новой странице не найден");
+            log.info("Новая страница найдена");
+            Thread.sleep(1000);
+
+            String expectedText = "Регистрация";
+            String actualText = registrationPage.getText();
+            Assert.assertEquals(actualText, expectedText, "Текст на новой странице не совпадает с ожидаемым");
+            Thread.sleep(1000);
+
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+        }
+    }
+
+    @Test(description = "Проверка наличия и функциональности ссылки Руководство пользователя")
+    public void userGuideLink() {
+        try {
+            // Поиск элемента ссылки
+            WebElement userGuideLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(@class, 'd-none') and contains(@class, 'd-lg-inline-block') and contains(@class, 'a-bottom')]")));
+            Assert.assertNotNull(userGuideLink, "Ссылка 'Руководство пользователя' не найдена");
+            log.info("Ссылка найдена");
+
+            // Переход по ссылке
+            userGuideLink.click();
+            log.info("Переход по ссылке выполнен");
+
+            // Ожидание появления нового элемента на новой странице
+            WebElement guideLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[@class='font-weight-bold']")));
+            Assert.assertNotNull(guideLink, "Элемент на новой странице не найден");
+            log.info("Новая страница найдена");
+
+            // Проверка текста на новой странице
+            String expectedText = "Руководство пользователя";
+            String actualText = guideLink.getText();
+            Assert.assertEquals(actualText, expectedText, "Текст на новой странице не совпадает с ожидаемым");
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+            Assert.fail("Тест провален из-за ошибки: " + e.getMessage());
+        }
+    }
 
     @AfterMethod
     public void tearDownMethod() {

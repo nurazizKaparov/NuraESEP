@@ -2,3 +2,73 @@
   C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
 
 2024-07-16 09:47:16 INFO  UI.LoginPageTest - Лого отображается
+2024-07-16 17:33:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-16 17:33:56 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-16 17:33:56 INFO  UI.LoginPageTest - Переход выполнен
+2024-07-16 17:33:57 ERROR UI.LoginPageTest - Ошибка: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68cb1a03a3de6c991a5b0d3d5222bf5b, findElement {using=name, value=//p[@class='fw-bold fs-2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51675/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68cb1a03a3de6c991a5b0d3d5222bf5b
+2024-07-16 17:34:27 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-16 17:34:29 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-16 17:34:29 INFO  UI.LoginPageTest - Переход выполнен
+2024-07-16 17:34:29 ERROR UI.LoginPageTest - Ошибка: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a73306dc7747262f9fd5c07336e6b74b, findElement {value=//p[@class='fw-bold fs-2'], using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51715}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51715/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a73306dc7747262f9fd5c07336e6b74b
+2024-07-16 17:38:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-16 17:38:03 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-16 17:38:05 INFO  UI.LoginPageTest - Переход выполнен
+2024-07-16 17:38:05 INFO  UI.LoginPageTest - Новая страница найдена
+2024-07-16 17:39:04 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-16 17:39:06 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-16 17:39:07 INFO  UI.LoginPageTest - Переход выполнен
+2024-07-16 17:39:07 INFO  UI.LoginPageTest - Новая страница найдена
+2024-07-16 17:41:19 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-16 17:41:22 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-16 17:41:23 INFO  UI.LoginPageTest - Переход выполнен
+2024-07-16 17:41:23 INFO  UI.LoginPageTest - Новая страница найдена
+2024-07-16 17:54:04 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-16 17:54:07 INFO  UI.LoginPageTest - Ссылка найдена
+2024-07-16 17:54:08 INFO  UI.LoginPageTest - Переход по ссылке выполнен
+2024-07-16 17:54:13 INFO  UI.LoginPageTest - Новая страница
+2024-07-16 17:54:13 ERROR UI.LoginPageTest - Ошибка: stale element reference: stale element not found
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76182142295fb8f67b3b2f5307fa79f1, getElementText {id=f.2FF9238D1BB7EFA839CE48572A48F8CC.d.3EE28BE19285001397C351F2B66A35B6.e.56}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52521/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (76182142295fb8f67b3b2f5307fa79f1)] -> xpath: //a[@class='d-none d-lg-inline-block a-bottom ']]
+Session ID: 76182142295fb8f67b3b2f5307fa79f1
+2024-07-16 17:56:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-16 17:56:47 INFO  UI.LoginPageTest - Ссылка найдена
+2024-07-16 17:56:48 INFO  UI.LoginPageTest - Переход по ссылке выполнен
+2024-07-16 17:56:48 INFO  UI.LoginPageTest - Новая страница найдена
