@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -534,6 +535,11 @@ public class LoginPageTest {
             log.error("Ошибка: " + e.getMessage());
         }
     }
+
+    @Test
+
+
+
     @AfterMethod
     public void tearDownMethod() {
         driver.quit();
