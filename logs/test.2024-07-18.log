@@ -1,0 +1,69 @@
+2024-07-18 16:17:32 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-18 16:17:35 INFO  UI.LoginPageTest - Элемент 'Контакт-центр 116' найден
+2024-07-18 16:17:35 INFO  UI.LoginPageTest - Кнопка 'Контакт-центр 116' нажата
+2024-07-18 16:17:35 INFO  UI.LoginPageTest - Элемент на новой странице найден
+2024-07-18 16:17:37 INFO  UI.LoginPageTest - Ссылка найдена
+2024-07-18 16:17:37 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-18 16:17:38 INFO  UI.LoginPageTest - Страница отображается корректно
+2024-07-18 16:17:42 INFO  UI.LoginPageTest - Лого отображается
+2024-07-18 16:17:44 INFO  UI.LoginPageTest - Поле для ввода пароля найдено
+2024-07-18 16:17:45 INFO  UI.LoginPageTest - Кнопка для отображения пароля найдена
+2024-07-18 16:17:46 INFO  UI.LoginPageTest - Пароль отображается в виде текста
+2024-07-18 16:17:47 INFO  UI.LoginPageTest - Пароль отображается в виде текста, а не скрыт
+2024-07-18 16:17:50 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/topLoginSlider/gns.svg']
+2024-07-18 16:17:50 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/topLoginSlider/smart.svg']
+2024-07-18 16:17:50 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner1.svg']
+2024-07-18 16:17:50 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner2.png']
+2024-07-18 16:17:50 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner3.png']
+2024-07-18 16:17:52 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-18 16:17:53 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-18 16:17:54 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-18 16:17:57 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-18 16:18:00 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-18 16:18:00 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-18 16:18:00 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-18 16:18:00 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-18 16:18:02 INFO  UI.LoginPageTest - Поле логина найдено
+2024-07-18 16:18:02 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-18 16:18:02 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-18 16:18:02 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-18 16:18:03 INFO  UI.LoginPageTest - Поле логина найдено
+2024-07-18 16:18:03 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-18 16:18:03 INFO  UI.LoginPageTest - Чекбокс 'Запомнить меня' найден
+2024-07-18 16:18:03 INFO  UI.LoginPageTest - Кнопка входа найдена
+2024-07-18 16:18:06 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-18 16:18:06 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-18 16:18:06 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-18 16:18:08 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-18 16:18:09 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-18 16:18:09 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-18 16:18:09 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-18 16:18:10 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-18 16:18:12 INFO  UI.LoginPageTest - Этап ввода пароля: 12334
+2024-07-18 16:18:15 INFO  UI.LoginPageTest - Кнопка 'Забыли пароль?' успешно нажата
+2024-07-18 16:18:15 INFO  UI.LoginPageTest - Страница восстановления пароля открылась успешно.
+2024-07-18 16:18:15 INFO  UI.LoginPageTest - Поле ввода ИНН найдено.
+2024-07-18 16:18:15 INFO  UI.LoginPageTest - Поле ввода нового пароля найдено.
+2024-07-18 16:18:15 INFO  UI.LoginPageTest - Поле повторного ввода пароля найдено.
+2024-07-18 16:18:15 INFO  UI.LoginPageTest - Кнопка 'Сбросить' найдена.
+2024-07-18 16:18:16 INFO  UI.LoginPageTest - Сообщение об ошибке 'Пароли не совпадают' отображается
+2024-07-18 16:18:17 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-18 16:18:17 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-18 16:18:17 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-18 16:18:18 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-18 16:18:20 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-18 16:18:20 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-18 16:18:20 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-18 16:18:21 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-18 16:18:22 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-18 16:18:24 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-18 16:18:24 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-18 16:18:24 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-18 16:18:24 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-18 16:18:25 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-18 16:18:25 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-18 16:18:25 INFO  UI.LoginPageTest - Пароль введен
+2024-07-18 16:18:25 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-18 16:18:25 INFO  UI.LoginPageTest - Повторный пароль введен
