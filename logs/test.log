@@ -257,3 +257,7 @@ Session ID: c9718d7b322ad994c413ce55a6b94f39
 2024-07-19 17:09:04 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
 2024-07-19 17:09:05 INFO  UI.EttnDocumentRegistration - Кнопка нажата
 2024-07-19 17:09:06 INFO  UI.EttnDocumentRegistration - Текст найден и проверен
+2024-07-24 11:29:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 11:29:37 ERROR UI.LoginOfEsi - Ошибка: Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()='ЕСИ-Облако'] (tried for 20 second(s) with 500 milliseconds interval)
