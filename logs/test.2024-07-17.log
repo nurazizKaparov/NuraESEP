@@ -1,0 +1,245 @@
+2024-07-17 09:45:47 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 09:45:49 INFO  UI.LoginPageTest - Ссылка найдена
+2024-07-17 09:45:49 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 09:45:49 INFO  UI.LoginPageTest - Страница отображается корректно
+2024-07-17 09:47:41 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 09:47:43 INFO  UI.LoginPageTest - Ссылка найдена
+2024-07-17 09:47:43 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 09:47:44 INFO  UI.LoginPageTest - Страница отображается корректно
+2024-07-17 10:29:40 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 10:29:42 INFO  UI.LoginPageTest - Элемент 'Контакт-центр 116' найден
+2024-07-17 10:29:42 INFO  UI.LoginPageTest - Кнопка 'Контакт-центр 116' нажата
+2024-07-17 10:29:42 INFO  UI.LoginPageTest - Элемент на новой странице найден
+2024-07-17 10:37:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 10:37:37 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/topLoginSlider/gns.svg']
+2024-07-17 10:37:37 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/topLoginSlider/smart.svg']
+2024-07-17 10:37:37 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner1.svg']
+2024-07-17 10:37:37 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner2.png']
+2024-07-17 10:37:37 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner3.png']
+2024-07-17 10:58:55 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 10:58:57 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 13:40:41 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 13:40:43 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 13:40:44 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 13:40:44 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 13:42:14 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 13:42:16 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 13:42:17 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 13:42:17 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 13:43:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 13:43:45 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 13:43:46 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 13:43:46 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 13:44:06 ERROR UI.LoginPageTest - Ошибка: Expected condition failed: waiting for visibility of element located by By.xpath: //li[contains(text(),'Физическое лицо')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61436/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da949e487a7048b27bd2fcf3f89566d8
+2024-07-17 13:45:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 13:45:18 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 13:45:19 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 16:06:05 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 16:06:07 INFO  UI.LoginPageTest - Элемент 'Контакт-центр 116' найден
+2024-07-17 16:06:07 INFO  UI.LoginPageTest - Кнопка 'Контакт-центр 116' нажата
+2024-07-17 16:06:07 INFO  UI.LoginPageTest - Элемент на новой странице найден
+2024-07-17 16:06:08 INFO  UI.LoginPageTest - Ссылка найдена
+2024-07-17 16:06:09 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 16:06:10 INFO  UI.LoginPageTest - Страница отображается корректно
+2024-07-17 16:06:13 INFO  UI.LoginPageTest - Лого отображается
+2024-07-17 16:06:15 INFO  UI.LoginPageTest - Поле для ввода пароля найдено
+2024-07-17 16:06:16 INFO  UI.LoginPageTest - Кнопка для отображения пароля найдена
+2024-07-17 16:06:17 INFO  UI.LoginPageTest - Пароль отображается в виде текста
+2024-07-17 16:06:18 INFO  UI.LoginPageTest - Пароль отображается в виде текста, а не скрыт
+2024-07-17 16:06:21 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/topLoginSlider/gns.svg']
+2024-07-17 16:06:21 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/topLoginSlider/smart.svg']
+2024-07-17 16:06:21 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner1.svg']
+2024-07-17 16:06:21 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner2.png']
+2024-07-17 16:06:21 INFO  UI.LoginPageTest - Изображение отображается корректно: //img[@src='images/sliders/loginSlider/banner3.png']
+2024-07-17 16:06:23 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-17 16:06:24 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-17 16:06:25 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-17 16:06:29 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-17 16:06:31 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-17 16:06:31 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-17 16:06:31 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-17 16:06:32 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-17 16:06:33 INFO  UI.LoginPageTest - Поле логина найдено
+2024-07-17 16:06:33 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-17 16:06:33 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-17 16:06:34 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-17 16:06:35 INFO  UI.LoginPageTest - Поле логина найдено
+2024-07-17 16:06:35 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-17 16:06:35 INFO  UI.LoginPageTest - Чекбокс 'Запомнить меня' найден
+2024-07-17 16:06:35 INFO  UI.LoginPageTest - Кнопка входа найдена
+2024-07-17 16:06:39 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-17 16:06:39 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-17 16:06:39 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-17 16:06:40 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-17 16:06:41 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-17 16:06:41 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-17 16:06:41 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-17 16:06:43 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-17 16:06:45 INFO  UI.LoginPageTest - Этап ввода пароля: 12334
+2024-07-17 16:06:48 INFO  UI.LoginPageTest - Кнопка 'Забыли пароль?' успешно нажата
+2024-07-17 16:06:48 INFO  UI.LoginPageTest - Страница восстановления пароля открылась успешно.
+2024-07-17 16:06:48 INFO  UI.LoginPageTest - Поле ввода ИНН найдено.
+2024-07-17 16:06:48 INFO  UI.LoginPageTest - Поле ввода нового пароля найдено.
+2024-07-17 16:06:48 INFO  UI.LoginPageTest - Поле повторного ввода пароля найдено.
+2024-07-17 16:06:48 INFO  UI.LoginPageTest - Кнопка 'Сбросить' найдена.
+2024-07-17 16:06:49 INFO  UI.LoginPageTest - Сообщение об ошибке 'Пароли не совпадают' отображается
+2024-07-17 16:06:50 INFO  UI.LoginPageTest - Обязательное поле ИНН
+2024-07-17 16:06:50 INFO  UI.LoginPageTest - Обязательное поле пароля
+2024-07-17 16:06:50 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-17 16:06:52 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-17 16:06:53 INFO  UI.LoginPageTest - Поле Логина найдено
+2024-07-17 16:06:53 INFO  UI.LoginPageTest - Поле ввода пароля найдено
+2024-07-17 16:06:53 INFO  UI.LoginPageTest - Кнопка успешно нажата
+2024-07-17 16:06:54 INFO  UI.LoginPageTest - Сообщение об ошибке авторизации отображается
+2024-07-17 16:06:56 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 16:06:57 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 16:06:58 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 16:07:00 INFO  UI.LoginPageTest - Переход выполнен
+2024-07-17 16:07:00 INFO  UI.LoginPageTest - Новая страница найдена
+2024-07-17 16:07:05 INFO  UI.LoginPageTest - Кнопка 'Забыли пароль?' успешно нажата
+2024-07-17 16:07:05 INFO  UI.LoginPageTest - Страница восстановления пароля открылась успешно.
+2024-07-17 16:07:05 INFO  UI.LoginPageTest - Поле ввода ИНН найдено.
+2024-07-17 16:07:05 INFO  UI.LoginPageTest - Поле ввода нового пароля найдено.
+2024-07-17 16:07:05 INFO  UI.LoginPageTest - Поле повторного ввода пароля найдено.
+2024-07-17 16:07:05 INFO  UI.LoginPageTest - Кнопка 'Сбросить' найдена.
+2024-07-17 16:07:07 INFO  UI.LoginPageTest - Сообщение об успешном сбросе отображается
+2024-07-17 16:07:11 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-17 16:07:11 INFO  UI.LoginPageTest - Обязательное поле для заполнения
+2024-07-17 16:07:11 INFO  UI.LoginPageTest - Кнопка входа в систему
+2024-07-17 16:07:11 INFO  UI.LoginPageTest - Поля не заполнены
+2024-07-17 16:07:13 INFO  UI.LoginPageTest - Ссылка найдена
+2024-07-17 16:07:13 INFO  UI.LoginPageTest - Переход по ссылке выполнен
+2024-07-17 16:07:13 INFO  UI.LoginPageTest - Новая страница найдена
+2024-07-17 17:15:13 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 17:15:15 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 17:15:16 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:15:37 ERROR UI.LoginPageTest - Ошибка: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='notyf__wrapper'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50311/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76dc3710db42409f55abfe676a6e6085
+2024-07-17 17:16:18 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 17:16:20 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 17:16:21 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 17:16:21 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 17:16:21 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 17:16:21 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 17:16:22 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:16:22 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:16:22 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 17:16:22 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:16:22 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 17:16:22 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:17:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 17:17:37 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 17:17:38 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 17:17:38 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 17:17:38 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 17:17:39 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 17:17:39 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:17:39 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:17:39 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 17:17:39 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:17:39 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 17:17:39 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:21:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 17:21:13 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:21:14 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 17:21:16 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:21:16 INFO  UI.LoginPageTest - Уведомление о регистрации отображается корректно
+2024-07-17 17:23:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 17:23:14 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 17:23:15 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 17:23:15 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 17:23:15 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 17:23:15 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 17:23:16 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:23:16 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:23:16 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 17:23:16 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:23:16 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 17:23:16 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:23:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-17 17:23:48 INFO  UI.LoginPageTest - Элемент 'Зарегистрироваться' найден
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Элемент 'Регистрация' найдена
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Выплывающий список отображается корректно
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Опция 'Физическое лицо' выбрана
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Поле заполнено
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Пароль введен
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Поле отображается корректно
+2024-07-17 17:23:49 INFO  UI.LoginPageTest - Повторный пароль введен
+2024-07-17 17:23:50 INFO  UI.LoginPageTest - Кнопка нажата
+2024-07-17 17:23:50 INFO  UI.LoginPageTest - Уведомление о регистрации отображается корректно: 

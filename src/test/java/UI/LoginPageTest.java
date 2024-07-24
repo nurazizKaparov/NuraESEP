@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -17,6 +18,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
 import static org.testng.Assert.*;
 import static org.testng.AssertJUnit.assertEquals;
@@ -29,7 +31,6 @@ public class LoginPageTest {
 
     @BeforeClass
     public void setUpClass() {
-        // Укажите путь к вашему драйверу Chrome
         System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
     }
 
@@ -37,8 +38,8 @@ public class LoginPageTest {
     public void setUpMethod() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Увеличьте время ожидания
-        driver.get("https://testcabinet.salyk.kg/account/login"); // Замените на реальный URL страницы
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        driver.get("https://testcabinet.salyk.kg/account/login");
     }
 
     @Test(description = "Позитивный тест для авторизации")
@@ -67,7 +68,7 @@ public class LoginPageTest {
             assertTrue(bodyText.contains("22405200000946"), "Expected text not found!");
 
             // Проверьте результат, например, что страница после входа содержит ожидаемый элемент
-            WebElement expectedElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='text-gray-600 fs-6 fw-semibold']"))); // Замените на реальный ID ожидаемого элемента
+            WebElement expectedElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='text-gray-600 fs-6 fw-semibold']")));
             assertNotNull(expectedElement);
             log.info("Клиент успешно вошел в систему");
         } catch (Exception e) {
@@ -304,6 +305,7 @@ public class LoginPageTest {
         }
     }
 
+    //TODO: Нужно будет допилить
     @Test(description = "Проверка сохранения имени пользователя и пароля при нажатии кнопки Запомнить меня")
     public void testLoginWithRememberMe() {
         try {
@@ -402,6 +404,7 @@ public class LoginPageTest {
         }
     }
 
+    //TODO: Нужно будет допилить
     @Test(description = "Проверка успешного сброса пароля")
     public void testSuccessfulPasswordReset() {
         try {
@@ -453,6 +456,7 @@ public class LoginPageTest {
         }
     }
 
+    //TODO: Нужно будет допилить
     @Test(description = "Проверка отображения символов пароля")
     public void testPasswordDisplay() {
         try {
@@ -534,6 +538,201 @@ public class LoginPageTest {
             log.error("Ошибка: " + e.getMessage());
         }
     }
+
+    @Test(description = "Проверка наличия и функциональности ссылки Зарегистрируйтесь")
+    public void testRegistrationLinkBtn() {
+        try {
+            WebElement registrationLinkBtn = driver.findElement(By.xpath("//a[contains(@class, 'li-tab') and contains(@class, 'btn-active-color-primary') and @href='/account/register']"));
+            Assert.assertNotNull(registrationLinkBtn, "Элемент 'Зарегистрироваться' не найден");
+            log.info("Элемент 'Зарегистрироваться' найден");
+            Thread.sleep(1000);
+
+            registrationLinkBtn.click();
+            log.info("Переход выполнен");
+
+            WebElement registrationPage = driver.findElement(By.xpath("//p[@class='fw-bold fs-2']"));
+            Assert.assertNotNull(registrationPage, "Элемент на новой странице не найден");
+            log.info("Новая страница найдена");
+            Thread.sleep(1000);
+
+            String expectedText = "Регистрация";
+            String actualText = registrationPage.getText();
+            Assert.assertEquals(actualText, expectedText, "Текст на новой странице не совпадает с ожидаемым");
+            Thread.sleep(1000);
+
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+        }
+    }
+
+    @Test(description = "Проверка наличия и функциональности ссылки Руководство пользователя")
+    public void userGuideLink() {
+        try {
+            // Поиск элемента ссылки
+            WebElement userGuideLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(@class, 'd-none') and contains(@class, 'd-lg-inline-block') and contains(@class, 'a-bottom')]")));
+            Assert.assertNotNull(userGuideLink, "Ссылка 'Руководство пользователя' не найдена");
+            log.info("Ссылка найдена");
+
+            // Переход по ссылке
+            userGuideLink.click();
+            log.info("Переход по ссылке выполнен");
+
+            // Ожидание появления нового элемента на новой странице
+            WebElement guideLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[@class='font-weight-bold']")));
+            Assert.assertNotNull(guideLink, "Элемент на новой странице не найден");
+            log.info("Новая страница найдена");
+
+            // Проверка текста на новой странице
+            String expectedText = "Руководство пользователя";
+            String actualText = guideLink.getText();
+            Assert.assertEquals(actualText, expectedText, "Текст на новой странице не совпадает с ожидаемым");
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+            Assert.fail("Тест провален из-за ошибки: " + e.getMessage());
+        }
+    }
+
+    @Test(description = "Проверка наличия и функциональности ссылки Помощники")
+    public void helperLink(){
+        try {
+            WebElement helperLink = driver.findElement(By.xpath("//a[@class='d-none d-lg-inline-block a-bottom ps-15 ']"));
+            Assert.assertNotNull(helperLink, "Ссылка не найдена");
+            log.info("Ссылка найдена");
+            helperLink.click();
+            log.info("Кнопка нажата");
+
+            Thread.sleep(1000);
+            WebElement helperPage = driver.findElement(By.xpath("//h3[@class='font-weight-bold']"));
+            Assert.assertNotNull(helperPage, "Страница не отображается");
+            log.info("Страница отображается корректно");
+
+            Thread.sleep(1000);
+            String expectedText = "Помощники";
+            String actualText = helperPage.getText();
+            Assert.assertEquals(actualText, expectedText, "Текст на новой странице не совпадает с ожидаемым");
+        }catch (Exception e){
+            log.error("Ошибка: " + e.getMessage());
+            Assert.fail("Тест провален из-за ошибки: " + e.getMessage());
+        }
+    }
+
+    @Test(description = "Проверка наличия и функциональности ссылки Контакт-центр 116")
+    public void contactCenterLink() {
+        try {
+            // Ожидание видимости элемента 'Контакт-центр 116'
+            WebElement contactCenterLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='a-bottom ps-15']")));
+            Assert.assertNotNull(contactCenterLink, "Элемент 'Контакт-центр 116' не найден");
+            log.info("Элемент 'Контакт-центр 116' найден");
+
+            // Переход по ссылке
+            contactCenterLink.click();
+            log.info("Кнопка 'Контакт-центр 116' нажата");
+
+            // Ожидание появления нового элемента на новой странице
+            WebElement contactCenterPage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@href='tel:116' and @class='a-bottom ps-15']")));
+            Assert.assertNotNull(contactCenterPage, "Элемент на новой странице не найден");
+            log.info("Элемент на новой странице найден");
+
+            // Проверка текста на новой странице
+            String expectedText = "Контакт-центр 116";
+            String actualText = contactCenterPage.getText();
+            Assert.assertEquals(actualText, expectedText, "Текст на новой странице не совпадает с ожидаемым");
+
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+            Assert.fail("Тест провален из-за ошибки: " + e.getMessage());
+        }
+    }
+
+    @Test(description = "Проверка правильности отображения изображений и графических элементов на странице")
+    public void testImagesAndGraphics() {
+        try {
+            // Список XPaths для всех изображений и графических элементов на странице
+            List<String> imageXpaths = List.of(
+                    "//img[@src='images/sliders/topLoginSlider/gns.svg']",
+                    "//img[@src='images/sliders/topLoginSlider/smart.svg']",
+                    "//img[@src='images/sliders/loginSlider/banner1.svg']",
+                    "//img[@src='images/sliders/loginSlider/banner2.png']",
+                    "//img[@src='images/sliders/loginSlider/banner3.png']"
+            );
+
+            // Проверка каждого изображения на корректность отображения
+            for (String xpath : imageXpaths) {
+                WebElement imageElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+                Assert.assertTrue((Boolean) ((ChromeDriver) driver).executeScript(
+                                "return arguments[0].complete && arguments[0].naturalHeight > 0", imageElement),
+                        "Изображение не отображается корректно: " + xpath);
+                log.info("Изображение отображается корректно: " + xpath);
+            }
+
+        } catch (Exception e) {
+            log.error("Ошибка: " + e.getMessage());
+            Assert.fail("Тест провален из-за ошибки: " + e.getMessage());
+        }
+    }
+
+    @Test(description = "Проверка функциональности кнопки Зарегистрируйтесь для новых пользователей")
+    public void testRegisterBtn(){
+        try {
+            WebElement registrationLinkBtn = driver.findElement(By.xpath("//a[contains(@class, 'li-tab') and contains(@class, 'btn-active-color-primary') and @href='/account/register']"));
+            Assert.assertNotNull(registrationLinkBtn, "Элемент 'Зарегистрироваться' не найден");
+            log.info("Элемент 'Зарегистрироваться' найден");
+            Thread.sleep(500);
+            registrationLinkBtn.click();
+
+            WebElement registerPage = driver.findElement(By.xpath("//p[@class='fw-bold fs-2']"));
+            Assert.assertNotNull(registerPage, "Элемент 'Регистрация' не найден");
+            log.info("Элемент 'Регистрация' найдена");
+
+            WebElement personTypeDropdown = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id='select2-PersonType-container']")));
+            Assert.assertNotNull(personTypeDropdown, "Выплывающий список не отображается");
+            log.info("Выплывающий список отображается корректно");
+
+            WebElement individualOption = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='select2-selection__rendered']")));
+            Assert.assertNotNull(individualOption, "Опция 'Физическое лицо' не найдена");
+            log.info("Опция 'Физическое лицо' выбрана");
+
+            WebElement innField = driver.findElement(By.xpath("//input[@name='Pin']"));
+            Assert.assertNotNull(innField, "Поле не найдено");
+            innField.sendKeys("22405200000946");
+            log.info("Поле заполнено");
+
+            WebElement searchBtn = driver.findElement(By.xpath("//button[@class='btn btn-primary w-100']"));
+            searchBtn.click();
+            log.info("Кнопка нажата");
+
+            WebElement passwordField = driver.findElement(By.xpath("//input[@id='Password']"));
+            Assert.assertNotNull(passwordField, "Поле не найдено");
+            log.info("Поле отображается корректно");
+            passwordField.sendKeys("Linux7788123");
+            log.info("Пароль введен");
+
+            WebElement confirmPasswordField = driver.findElement(By.xpath("//input[@id='ConfirmPassword']"));
+            Assert.assertNotNull(confirmPasswordField, "Поле не найдено");
+            log.info("Поле отображается корректно");
+            confirmPasswordField.sendKeys("Linux7788123");
+            log.info("Повторный пароль введен");
+
+            WebElement registerBtn = driver.findElement(By.xpath("//button[@class='btn btn-block btn-secondary w-100']"));
+            Assert.assertNotNull(registerBtn, "Возникла ошибка при нажатии на кнопку");
+            registerBtn.click();
+            log.info("Кнопка нажата");
+
+            WebElement notificationWrapper = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='notyf__wrapper']")));
+            Assert.assertNotNull(notificationWrapper, "Уведомление о регистрации не отображается");
+            String actualNotification = notificationWrapper.getText();
+            String expectedNotification = notificationWrapper.getText();
+            Assert.assertEquals(actualNotification, expectedNotification, "Фактическое уведомление не соответствует ожидаемому");
+            log.info("Уведомление о регистрации отображается корректно: " + actualNotification);
+
+        } catch (Exception e){
+            log.error("Ошибка: " + e.getMessage());
+            Assert.fail("Тест провален из-за ошибки: " + e.getMessage());
+        }
+    }
+
+    @Test(description = "")
+
     @AfterMethod
     public void tearDownMethod() {
         driver.quit();
