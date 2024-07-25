@@ -1,4 +1,4 @@
-package org.example.test;
+package org.example.pages;
 
 import org.example.drivers.Driver;
 import org.example.ui.WebElementHelper;
