@@ -1,46 +1,25 @@
-package org.example.pages;
+package ui.pages;
 
-import org.example.drivers.Driver;
-import org.example.ui.WebElementHelper;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import static ui.dataProvider.ConfigReader.getProperty;
+import java.util.Properties;
 
-public class LoginPage {
-    WebDriver driver;
-    Actions act;
+public class LoginPage extends BasePage{
+    @FindBy(id = "emailPasswordForm_email")
+    public WebElement fieldLogin;
+    @FindBy(id = "emailPasswordForm_password")
+    public  WebElement fieldPassword;
+    @FindBy(xpath = "//button[@class=\"ant-btn css-iuyn2o ant-btn-default sc-eqUzNf fEfnaF sc-eZjPq iURnbz\"]")
+    public  WebElement btnAuth;
+    @FindBy(xpath = "class=\"text-medium-16 mv-12\"")
+    public WebElement messageKKM;
 
-    public LoginPage(){
-        this.driver = Driver.getDriver();
-        PageFactory.initElements(driver, this);
-    }
-    @FindBy(name = "Username")
-    public WebElement innInput;
-    @FindBy(name = "Password")
-    public WebElement passwordInput;
-    @FindBy(xpath = "//button[@class='btn btn-primary w-100']")
-    public WebElement submitBtn;
-
-
-    WebElementHelper webElementHelper =new WebElementHelper();
-    public LoginPage fullUpInn(String login){
-        webElementHelper.sendKeys(innInput, login);
+    public LoginPage doLogin(){
+        webElementHelper
+                .sendKeys(fieldLogin, getProperty("loginUserAdmin"))
+                .sendKeys(fieldPassword, getProperty("passwordUser"))
+                .click(btnAuth);
         return this;
-    }
-    public LoginPage fullUpPassword(String password){
-        webElementHelper.sendKeys(passwordInput, password);
-        return this;
-    }
-    public LoginPage clickSubmitBtn(){
-        webElementHelper.click(submitBtn);
-        return this;
-    }
-
-    public boolean isLoggedIn() {
-        WebElement welcomeMessage = driver.findElement(By.xpath("//span[@class='text-gray-600 fs-6 fw-semibold']"));
-        return welcomeMessage.isDisplayed();
     }
 }

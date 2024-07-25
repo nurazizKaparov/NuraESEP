@@ -1,0 +1,310 @@
+2024-07-19 15:41:04 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 15:41:07 INFO  UI.EttnDocumentRegistration - Поле ввода ИНН найдено
+2024-07-19 15:41:07 INFO  UI.EttnDocumentRegistration - Поле ввода пароля найдено
+2024-07-19 15:41:07 ERROR UI.EttnDocumentRegistration - Ошибка: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='text-gray-600 fs-6 fw-semibold']"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8b9e99e37bacde1780adcd3ee23f305, findElement {using=xpath, value=//span[@class='text-gray-600 fs-6 fw-semibold']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54889/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8b9e99e37bacde1780adcd3ee23f305
+2024-07-19 15:42:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 15:42:18 INFO  UI.EttnDocumentRegistration - Поле ввода ИНН найдено
+2024-07-19 15:42:18 INFO  UI.EttnDocumentRegistration - Поле ввода пароля найдено
+2024-07-19 15:42:18 ERROR UI.EttnDocumentRegistration - Ошибка: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //button[@class='btn btn-primary w-100']'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='btn btn-primary w-100']']' is not a valid XPath expression."}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dea2e5bc24edecabeaa2aba852e4ff2e, findElement {value=//button[@class='btn btn-primary w-100']'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54963/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dea2e5bc24edecabeaa2aba852e4ff2e
+2024-07-19 15:42:52 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 15:42:54 INFO  UI.EttnDocumentRegistration - Поле ввода ИНН найдено
+2024-07-19 15:42:54 INFO  UI.EttnDocumentRegistration - Поле ввода пароля найдено
+2024-07-19 15:42:56 ERROR UI.EttnDocumentRegistration - Ошибка: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //button[@class='btn btn-primary w-100']'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='btn btn-primary w-100']']' is not a valid XPath expression."}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0a088659bf560de43a97111cfdc63e2, findElement {value=//button[@class='btn btn-primary w-100']'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55013}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55013/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0a088659bf560de43a97111cfdc63e2
+2024-07-19 15:43:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 15:43:13 INFO  UI.LoginPageTest - ИНН заполнен
+2024-07-19 15:43:13 INFO  UI.LoginPageTest - Пароль прописан
+2024-07-19 15:43:13 INFO  UI.LoginPageTest - Кнопка авторизации успешно нажата
+2024-07-19 15:43:14 INFO  UI.LoginPageTest - Клиент успешно вошел в систему
+2024-07-19 15:43:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 15:43:50 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 15:43:50 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 15:43:50 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 15:43:51 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 15:43:51 INFO  UI.EttnDocumentRegistration - кнопка нажата
+2024-07-19 16:04:39 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:04:42 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:04:42 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:04:42 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:04:42 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:04:43 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:13:20 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:13:22 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:13:22 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:13:22 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:13:24 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:13:24 ERROR UI.EttnDocumentRegistration - Ошибка: no such element: Unable to locate element: {"method":"css selector","selector":"#kt_app_sidebar_logo > a > img.h-40px.app-sidebar-logo-default.theme-light-show"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cf869deda1f5ba893a53633241bc108, findElement {value=#kt_app_sidebar_logo > a > img.h-40px.app-sidebar-logo-default.theme-light-show, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cf869deda1f5ba893a53633241bc108
+2024-07-19 16:15:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:15:02 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:15:02 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:15:02 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:15:02 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:15:03 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:18:44 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:18:46 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:18:46 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:18:46 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:18:46 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:18:46 ERROR UI.EttnDocumentRegistration - Ошибка: Index 0 out of bounds for length 0
+2024-07-19 16:21:49 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:21:51 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:21:51 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:21:51 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:21:51 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:21:52 ERROR UI.EttnDocumentRegistration - Ошибка: class java.util.ArrayList cannot be cast to class org.openqa.selenium.WebElement (java.util.ArrayList is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')
+2024-07-19 16:22:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:22:37 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:22:37 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:22:37 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:22:38 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:22:38 ERROR UI.EttnDocumentRegistration - Ошибка: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Главная']"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2fc5f5d4ab6996014b30639cb9991c3, findElement {value=//span[text()='Главная'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50808}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50808/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2fc5f5d4ab6996014b30639cb9991c3
+2024-07-19 16:23:19 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:23:21 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:23:21 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:23:21 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:23:23 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:23:23 ERROR UI.EttnDocumentRegistration - Ошибка: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Главная']"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e4fefba031183f73586fb8231c8ac0d, findElement {value=//span[text()='Главная'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50853}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50853/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e4fefba031183f73586fb8231c8ac0d
+2024-07-19 16:27:32 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:27:34 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:27:34 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:27:34 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:27:36 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:27:37 INFO  UI.EttnDocumentRegistration - Текст найден и проверен
+2024-07-19 16:32:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:32:17 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:32:17 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:32:17 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:32:19 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:32:19 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:32:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:32:37 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:32:37 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:32:37 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:32:38 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:32:39 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:33:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:33:27 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:33:27 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:33:27 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:33:29 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:33:29 ERROR UI.EttnDocumentRegistration - Ошибка: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='ЭТТН']"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0334c6f99d945bc4b5a73f8508f86936, findElement {using=xpath, value=//span[text()='ЭТТН']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51239}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51239/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0334c6f99d945bc4b5a73f8508f86936
+2024-07-19 16:33:31 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:33:31 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:33:31 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:33:32 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:33:33 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:33:33 INFO  UI.EttnDocumentRegistration - Текст найден и проверен
+2024-07-19 16:34:08 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:34:10 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:34:10 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:34:10 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:34:12 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:34:12 ERROR UI.EttnDocumentRegistration - Ошибка: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='ЭТТН']"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9718d7b322ad994c413ce55a6b94f39, findElement {value=//span[text()='ЭТТН'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\AOROZA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51307}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51307/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9718d7b322ad994c413ce55a6b94f39
+2024-07-19 16:34:13 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:34:13 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:34:13 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:34:15 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:34:16 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:34:17 INFO  UI.EttnDocumentRegistration - Текст найден и проверен
+2024-07-19 16:35:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:35:23 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:35:23 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:35:23 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:35:25 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:35:25 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:35:28 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:35:28 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:35:28 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:35:29 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:35:30 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:35:31 INFO  UI.EttnDocumentRegistration - Текст найден и проверен
+2024-07-19 16:55:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:56:15 ERROR UI.EttnDocumentRegistration - Ошибка при попытке авторизации: Expected condition failed: waiting for visibility of element located by By.name: Username (tried for 20 second(s) with 500 milliseconds interval)
+2024-07-19 16:58:34 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 16:58:35 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:58:36 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:58:36 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:58:42 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:58:43 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:58:44 INFO  UI.EttnDocumentRegistration - Переход на страницу ЭТТН выполнен успешно.
+2024-07-19 16:58:45 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 16:58:45 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 16:58:45 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 16:58:47 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 16:58:47 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 16:58:48 INFO  UI.EttnDocumentRegistration - Текст найден и проверен
+2024-07-19 17:08:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\aorozakunov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-19 17:08:53 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 17:08:53 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 17:08:53 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 17:08:56 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 17:08:57 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 17:08:58 INFO  UI.EttnDocumentRegistration - Переход на страницу ЭТТН выполнен успешно.
+2024-07-19 17:09:00 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 17:09:00 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 17:09:00 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 17:09:01 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 17:09:03 INFO  UI.EttnDocumentRegistration - ИНН заполнен
+2024-07-19 17:09:03 INFO  UI.EttnDocumentRegistration - Пароль прописан
+2024-07-19 17:09:03 INFO  UI.EttnDocumentRegistration - Кнопка авторизации успешно нажата
+2024-07-19 17:09:04 INFO  UI.EttnDocumentRegistration - Клиент успешно вошел в систему
+2024-07-19 17:09:05 INFO  UI.EttnDocumentRegistration - Кнопка нажата
+2024-07-19 17:09:06 INFO  UI.EttnDocumentRegistration - Текст найден и проверен
+2024-07-24 11:29:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 11:29:37 ERROR UI.LoginOfEsi - Ошибка: Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()='ЕСИ-Облако'] (tried for 20 second(s) with 500 milliseconds interval)
+2024-07-24 17:54:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 17:54:04 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 17:54:04 INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/win64/chromedriver-win64.zip
+2024-07-24 17:54:05 INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2024-07-24 17:54:05 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 17:54:26 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 17:54:26 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 17:54:26 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 17:58:20 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 17:58:21 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 17:58:21 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 17:59:27 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 17:59:28 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 17:59:28 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 18:02:58 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 18:02:58 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 18:02:58 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 18:05:30 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 18:05:30 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 18:05:30 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 18:05:58 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 18:05:59 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 18:05:59 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 18:08:07 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 18:08:08 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 18:08:08 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-24 18:10:50 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-24 18:10:50 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-24 18:10:50 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe

@@ -1,6 +1,6 @@
-package org.example.drivers;
+package ui.drivers;
 
-import org.example.dataProvider.ConfigReader;
+import ui.dataProvider.ConfigReader;
 import org.openqa.selenium.WebDriver;
 
 public class Driver {

@@ -1,4 +1,4 @@
-package org.example.dataProvider;
+package ui.dataProvider;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -21,11 +21,12 @@ public class ConfigReader {
         }
     }
 
-    public static String getProperty(String key){
-        return properties.getProperty(key).trim();
-    }
-    public static void main(String[] args) {
-        System.out.println(getProperty("name"));
+    public static String getProperty(String key) {
+        String value = properties.getProperty(key);
+        if (value != null) {
+            return value.trim();
+        } else {
+            throw new RuntimeException("Property " + key + " не найден.");
+        }
     }
 }
-

@@ -1,4 +1,4 @@
-package ui.ui;
+package ui.helpers;
 
 import ui.drivers.Driver;
 import org.openqa.selenium.JavascriptExecutor;
