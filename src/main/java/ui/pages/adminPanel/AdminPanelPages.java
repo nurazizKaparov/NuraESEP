@@ -5,10 +5,13 @@ import org.openqa.selenium.support.FindBy;
 import ui.pages.BasePage;
 
 public class AdminPanelPages extends BasePage {
-    @FindBy(xpath = "//button[@class=\"ant-btn css-iuyn2o ant-btn-default sc-eqUzNf vkuEH\"]")
+    @FindBy(xpath = "//span[text()='Зарегистрировать НП']")
     public WebElement btnRegistrationNP;
-    @FindBy(xpath = "//button[@class='ant-btn css-iuyn2o ant-btn-default sc-eqUzNf cmXNAZ mr-20']")
+    @FindBy(xpath = "//span[text()='Добавить существующего НП']")
     public WebElement btnRegistrationExistingNP;
+    @FindBy(xpath = "(//div[@title='Подробнее'])[1]")
+    public WebElement btnOpenInfoNP;
+
 
     public AdminPanelPages clickRegistrationNP() {
         webElementHelper.click(btnRegistrationNP);
@@ -17,6 +20,11 @@ public class AdminPanelPages extends BasePage {
 
     public AdminPanelPages clickRegistrationExistingNP() {
         webElementHelper.click(btnRegistrationExistingNP);
+        return this;
+    }
+
+    public AdminPanelPages clickOpenInfoNP(){
+        webElementHelper.click(btnOpenInfoNP);
         return this;
     }
 }

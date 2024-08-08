@@ -1,0 +1,6 @@
+2024-08-05 16:35:14 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-05 16:35:16 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-05 16:35:16 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-05 16:35:29 ERROR UI.BaseTest - Не найдена надпись 'ККМ'

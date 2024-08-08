@@ -1,9 +1,7 @@
 package ui.helpers;
 
+import org.openqa.selenium.*;
 import ui.drivers.Driver;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -53,5 +51,15 @@ public class WebElementHelper {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
         return this;
+    }
+
+    public boolean isElementVisible(WebDriver driver, By locator) {
+        try {
+            WebElement element = new WebDriverWait(driver, Duration.ofSeconds(5))
+                    .until(ExpectedConditions.visibilityOfElementLocated(locator));
+            return element.isDisplayed();
+        } catch (TimeoutException e) {
+            return false;
+        }
     }
 }

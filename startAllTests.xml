@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="tests">
+        <classes>
+<!--            <class name="UI.registrationNpTest.RegistrationNpTest">-->
+<!--                <methods>-->
+<!--                    <include name="clickRegistrationNpTest"/>-->
+<!--                    <include name="inputFieldsAndClickNextTest"/>-->
+<!--                </methods>-->
+<!--&lt;!&ndash;            </class>&ndash;&gt;-->
+            <class name="UI.registrationNpTest.RegistrationNp2Test">
+                <methods>
+<!--                    <include name="clickRegistrationNpTest"/>-->
+<!--                    <include name="inputFieldsAndClickNextTest"/>-->
+<!--                    <include name="inputFieldAndDateTest"/>-->
+<!--                    <include name="downloadFileTest"/>-->
+<!--                    <include name="downloadFileInKgRuTest"/>-->
+<!--                    <include name="clickBtnSaveTest"/>-->
+                    <include name="clickOpenInfoNpTest"/>
+                    <include name="clickRegistrationKkmTest"/>
+                    <include name="selectAllFieldsTest"/>
+                    <include name="saveKkmTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,146 @@
+2024-08-07 10:13:18 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:13:20 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:13:20 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:13:23 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:13:23 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:13:25 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:13:39 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:13:39 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:13:39 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:13:42 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:13:43 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:13:44 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:14:15 ERROR U.r.RegistrationNp2Test - Заполнение полей и даты во втором шаге выдала ошибку:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: phone' (tried for 15 second(s) with 500 milliseconds interval)
+2024-08-07 10:15:16 ERROR U.r.RegistrationNp2Test - Пользотель не на главной странице Админ Панель
+2024-08-07 10:16:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:16:47 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:16:47 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:16:50 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:16:50 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:16:51 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:17:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:17:49 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:17:49 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:17:52 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:17:52 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:17:53 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:17:54 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-07 10:17:55 ERROR U.r.RegistrationNp2Test - Заполнение полей и даты во втором шаге выдала ошибку:org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="ant-select-selection-placeholder" style="background: yellow; border: 2px solid red;">...</span> is not clickable at point (1277, 353). Other element would receive the click: <input type="search" id="taxSystemCode" autocomplete="off" class="ant-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="taxSystemCode_list" aria-autocomplete="list" aria-controls="taxSystemCode_list" aria-required="true" readonly="" unselectable="on" value="" style="opacity: 0;">
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fd151dfa90c4e8ec8578d9a9b5b747c, clickElement {id=f.045CCB463916793FCF8006E2714A94E6.d.A03D6D6B742DD86D0516CD150B46FFDD.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\nkaparov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53533/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6fd151dfa90c4e8ec8578d9a9b5b747c)] -> xpath: //span[text()='СНО']]
+Session ID: 6fd151dfa90c4e8ec8578d9a9b5b747c
+2024-08-07 10:17:59 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-08-07 10:19:29 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:19:30 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:19:30 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:19:33 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:19:33 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:19:34 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:19:35 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-07 10:34:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:34:15 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:34:15 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:34:18 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:34:18 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:34:19 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:34:20 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-07 10:34:25 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-08-07 10:34:36 ERROR U.r.RegistrationNp2Test - Пользотель не на главной странице Админ Панель
+2024-08-07 10:55:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:55:12 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:55:12 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:55:15 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:55:15 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:55:17 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:55:17 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-07 10:55:33 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-08-07 10:58:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:58:59 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:58:59 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:59:02 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:59:02 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:59:03 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:59:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 10:59:25 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 10:59:25 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 10:59:28 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 10:59:29 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 10:59:30 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 10:59:30 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-07 10:59:32 ERROR U.r.RegistrationNp2Test - Заполнение полей и даты во втором шаге выдала ошибку:org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="ant-select-selection-placeholder" style="background: yellow; border: 2px solid red;">...</span> is not clickable at point (1277, 353). Other element would receive the click: <input type="search" id="taxSystemCode" autocomplete="off" class="ant-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="taxSystemCode_list" aria-autocomplete="list" aria-controls="taxSystemCode_list" aria-required="true" readonly="" unselectable="on" value="" style="opacity: 0;">
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b349228821bddfcee1fa7bea9ec64f2a, clickElement {id=f.2EC3ABDFBBE295B15D5C453F52290EDB.d.71F0015150E3866D58690D9C3C0CE99B.e.76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\nkaparov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54728/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b349228821bddfcee1fa7bea9ec64f2a)] -> xpath: //span[text()='СНО']]
+Session ID: b349228821bddfcee1fa7bea9ec64f2a
+2024-08-07 10:59:36 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-08-07 10:59:46 ERROR U.r.RegistrationNp2Test - Пользотель не на главной странице Админ Панель
+2024-08-07 11:01:41 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 11:01:41 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 11:01:41 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 11:01:44 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 11:01:45 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 11:01:46 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-07 11:01:46 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-07 11:01:47 ERROR U.r.RegistrationNp2Test - Заполнение полей и даты во втором шаге выдала ошибку:org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="ant-select-selection-placeholder" style="background: yellow; border: 2px solid red;">...</span> is not clickable at point (1277, 353). Other element would receive the click: <input type="search" id="taxSystemCode" autocomplete="off" class="ant-select-selection-search-input" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="taxSystemCode_list" aria-autocomplete="list" aria-controls="taxSystemCode_list" aria-required="true" readonly="" unselectable="on" value="" style="opacity: 0;">
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2cc11c2add1342122ee4fe0ffd1f7f84, clickElement {id=f.741FE63EAC425791FDF020217BC439E2.d.72ECB3D25DD6F8BBE17B0D5B936AE8F3.e.76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\nkaparov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54852/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2cc11c2add1342122ee4fe0ffd1f7f84)] -> xpath: //span[text()='СНО']]
+Session ID: 2cc11c2add1342122ee4fe0ffd1f7f84
+2024-08-07 11:01:52 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-08-07 11:05:56 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 11:05:56 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 11:05:56 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 11:06:00 ERROR io.qameta.allure.AllureLifecycle - Could not update test container: container with uuid e2417397-1f14-4a79-97ce-6f787ed672e9 not found
+2024-08-07 11:07:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-07 11:07:12 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.88 (resolved driver for Chrome 127)
+2024-08-07 11:07:12 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.88\chromedriver.exe
+2024-08-07 11:07:15 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-07 11:07:51 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-07 11:09:00 ERROR U.r.RegistrationNp2Test - Ошибка на втором шаге вышла про причине:element click intercepted: Element <span style="background: yellow; border: 2px solid red;">...</span> is not clickable at point (119, 818). Other element would receive the click: <p class="color-primary-black p-30">...</p>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28e59cb37c48d3696087e487ee41ed0f, clickElement {id=f.82693A540997A5A52470F9D675482DE2.d.058036F594334DF07191CA7D6C3FD479.e.129}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\nkaparov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55225/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28e59cb37c48d3696087e487ee41ed0f)] -> xpath: //span[text()='Далее']]
+Session ID: 28e59cb37c48d3696087e487ee41ed0f
+2024-08-07 11:09:42 ERROR U.r.RegistrationNp2Test - Заполнение полей и даты во втором шаге выдала ошибку:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: phone' (tried for 15 second(s) with 500 milliseconds interval)
+2024-08-07 11:11:33 ERROR U.r.RegistrationNp2Test - Пользотель не на главной странице Админ Панель
