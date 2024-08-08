@@ -1,0 +1,81 @@
+2024-07-29 10:04:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-07-29 10:04:26 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 10:04:26 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 10:04:29 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 10:04:30 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-07-29 10:04:31 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-07-29 10:05:01 ERROR U.r.RegistrationNp2Test - Заполнение полей и даты во втором шаге выдала ошибку:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: phone' (tried for 15 second(s) with 500 milliseconds interval)
+2024-07-29 10:05:42 ERROR U.r.RegistrationNp2Test - Пользотель не на главной странице Админ Панель
+2024-07-29 10:29:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-07-29 10:29:52 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 10:29:52 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 10:29:55 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 10:29:56 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-07-29 10:29:57 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-07-29 10:29:59 INFO  U.r.RegistrationNp2Test - Дата первого числа введена удачно
+2024-07-29 10:30:00 INFO  U.r.RegistrationNp2Test - Указанно сегоднящняя дата
+2024-07-29 10:30:04 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-07-29 10:30:04 INFO  U.r.RegistrationNp2Test - СОЗДАНИЕ НП ПРОШЛО УСПЕШНО!!!
+2024-07-29 10:58:32 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-07-29 10:58:33 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 10:58:33 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 10:58:36 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 10:58:36 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-07-29 10:58:37 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-07-29 10:58:39 INFO  U.r.RegistrationNp2Test - Дата первого числа введена удачно
+2024-07-29 10:58:40 INFO  U.r.RegistrationNp2Test - Указанно сегоднящняя дата
+2024-07-29 10:58:44 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-07-29 11:38:31 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-07-29 11:38:32 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 11:38:32 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 11:38:35 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 11:38:35 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-07-29 11:38:36 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-07-29 11:38:49 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-07-29 11:38:49 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 11:38:49 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 11:38:52 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 11:38:53 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-07-29 11:38:54 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-07-29 11:38:56 INFO  U.r.RegistrationNp2Test - Дата первого числа введена удачно
+2024-07-29 11:38:57 INFO  U.r.RegistrationNp2Test - Указанно сегоднящняя дата
+2024-07-29 11:39:02 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-07-29 11:45:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-07-29 11:45:35 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 11:45:35 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 11:45:38 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 11:45:39 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-07-29 11:45:40 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-07-29 11:45:42 INFO  U.r.RegistrationNp2Test - Дата первого числа введена удачно
+2024-07-29 11:45:43 INFO  U.r.RegistrationNp2Test - Указанно сегоднящняя дата
+2024-07-29 11:45:48 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-07-29 17:57:13 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-07-29 17:57:14 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 17:57:14 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 17:57:17 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 17:57:17 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-07-29 17:57:18 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-07-29 17:57:21 INFO  U.r.RegistrationNp2Test - Дата первого числа введена удачно
+2024-07-29 17:57:21 INFO  U.r.RegistrationNp2Test - Указанно сегоднящняя дата
+2024-07-29 17:57:25 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-07-29 18:00:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2024-07-29 18:00:55 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.182 (resolved driver for Chrome 126)
+2024-07-29 18:00:55 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\126.0.6478.182\chromedriver.exe
+2024-07-29 18:00:58 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-07-29 18:01:28 ERROR U.r.RegistrationNp2Test - Пользотель не на главной странице Админ Панель
