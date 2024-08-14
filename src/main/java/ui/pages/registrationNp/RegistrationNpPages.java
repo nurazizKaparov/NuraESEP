@@ -1,5 +1,6 @@
 package ui.pages.registrationNp;
 
+import org.junit.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ui.helpers.FakeDataHelper;
@@ -22,11 +23,11 @@ public class RegistrationNpPages extends BasePage {
     public WebElement fieldMiddleName;
     @FindBy(id = "password")
     public WebElement fieldPassword;
-    @FindBy(xpath = "//button[@class='ant-btn css-iuyn2o ant-btn-default sc-eqUzNf beGnDj sc-NxrBK fQdrPg w-half']")
+    @FindBy(xpath = "//*[text()='Да']")
     public WebElement btnPayerNDS_yes;
-    @FindBy(xpath = "//button[@class='ant-btn css-iuyn2o ant-btn-default sc-eqUzNf fEfnaF sc-cfxfQh etJKSv w-half']")
+    @FindBy(xpath = "//*[text()='Нет']")
     public WebElement btnPayerNDS_no;
-    @FindBy(xpath = "//button[@class='ant-btn css-iuyn2o ant-btn-default sc-eqUzNf gKhIfv']")
+    @FindBy(xpath = "//span[text()='Далее']")
     public WebElement btnNext;
 
     public RegistrationNpPages inputFieldsAndClickNext() {
@@ -41,5 +42,6 @@ public class RegistrationNpPages extends BasePage {
                 .scrollToElement(btnNext).click(btnNext);
         return this;
     }
+
 
 }

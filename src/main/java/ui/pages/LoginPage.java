@@ -10,9 +10,9 @@ public class LoginPage extends BasePage{
     public WebElement fieldLogin;
     @FindBy(id = "emailPasswordForm_password")
     public  WebElement fieldPassword;
-    @FindBy(xpath = "//button[@class=\"ant-btn css-iuyn2o ant-btn-default sc-eqUzNf fEfnaF sc-eZjPq iURnbz\"]")
+    @FindBy(xpath = "//button[@class='ant-btn css-iuyn2o ant-btn-default sc-ikkyvV tNSuC sc-iMTngq lnsZfT']")
     public  WebElement btnAuth;
-    @FindBy(xpath = "class=\"text-medium-16 mv-12\"")
+    @FindBy(xpath = "//h1[@class=\"text-medium-16 mv-12\"]")
     public WebElement messageKKM;
 
     public LoginPage doLogin(){
