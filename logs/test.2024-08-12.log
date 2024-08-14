@@ -1,0 +1,44 @@
+2024-08-12 09:01:28 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-12 09:01:30 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 09:01:30 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 09:01:33 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-12 09:01:33 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-12 09:01:35 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-12 09:01:35 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-12 09:01:40 INFO  U.r.RegistrationNp2Test - Дата первого числа введена удачно
+2024-08-12 09:01:41 INFO  U.r.RegistrationNp2Test - Указанно 12.08.2024 дата
+2024-08-12 09:01:43 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-08-12 09:01:45 ERROR U.r.RegistrationNp2Test - Не удалось найти файл на РУ и КГ в папке!
+2024-08-12 09:01:45 INFO  U.r.RegistrationNp2Test - СОЗДАНИЕ НП ПРОШЛО УСПЕШНО!!!
+2024-08-12 09:01:46 INFO  U.r.RegistrationNp2Test - Пользователь находится на странице Инфорамация НП
+2024-08-12 09:01:46 INFO  U.r.RegistrationNp2Test - Пользователь находится на странице Регистрации ККМ
+2024-08-12 09:02:04 INFO  U.r.RegistrationNp2Test - Регистрация ККМ прошла успешно
+2024-08-12 09:07:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-12 09:07:48 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 09:07:48 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 09:07:52 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-12 09:07:52 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-12 09:07:53 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-12 09:08:24 ERROR U.r.RegistrationNp2Test - Заполнение полей и даты во втором шаге выдала ошибку:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: phone' (tried for 15 second(s) with 500 milliseconds interval)
+2024-08-12 09:08:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nkaparov\IdeaProjects\ESEP\startAllTests.xml
+
+2024-08-12 09:09:00 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.99 (resolved driver for Chrome 127)
+2024-08-12 09:09:00 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nkaparov\.cache\selenium\chromedriver\win64\127.0.6533.99\chromedriver.exe
+2024-08-12 09:09:03 INFO  UI.BaseTest - Пользователь на главной странице Админ Панель
+2024-08-12 09:09:03 INFO  U.r.RegistrationNp2Test - Пользователь находится на первой шаге Регистрации НП
+2024-08-12 09:09:04 INFO  U.r.RegistrationNp2Test - Пользователь находится на втором шаге Регистрации НП
+2024-08-12 09:09:05 INFO  U.r.RegistrationNp2Test - Номер заполнен!
+2024-08-12 09:09:09 INFO  U.r.RegistrationNp2Test - Дата первого числа введена удачно
+2024-08-12 09:09:10 INFO  U.r.RegistrationNp2Test - Указанно 12.08.2024 дата
+2024-08-12 09:09:12 ERROR U.r.RegistrationNp2Test - Не удалось найти файл в папке!
+2024-08-12 09:09:14 ERROR U.r.RegistrationNp2Test - Не удалось найти файл на РУ и КГ в папке!
+2024-08-12 09:09:15 INFO  U.r.RegistrationNp2Test - СОЗДАНИЕ НП ПРОШЛО УСПЕШНО!!!
+2024-08-12 09:09:15 INFO  U.r.RegistrationNp2Test - Пользователь находится на странице Инфорамация НП
+2024-08-12 09:09:16 INFO  U.r.RegistrationNp2Test - Пользователь находится на странице Регистрации ККМ
+2024-08-12 09:09:22 INFO  U.r.RegistrationNp2Test - Поля в регистрации ККМ заполнены
+2024-08-12 09:09:27 INFO  U.r.RegistrationNp2Test - Регистрация ККМ прошла успешно

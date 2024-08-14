@@ -23,13 +23,9 @@ public class AllPages {
     public RegistrationKkmPage registrationKkmPage;
     public InfoNpPage infoNpPage;
     public KkmInfoPage kkmInfoPage;
-    public InfoNpPage infoNpPage;
 
 
-
-
-
-    @BeforeMethod(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void initPage() {
         loginPage = new LoginPage();
         adminPanelPages = new AdminPanelPages();
@@ -38,7 +34,5 @@ public class AllPages {
         registrationKkmPage = new RegistrationKkmPage();
         infoNpPage = new InfoNpPage();
         kkmInfoPage = new KkmInfoPage();
-        infoNpPage = new InfoNpPage();
-
     }
 }

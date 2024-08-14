@@ -67,6 +67,7 @@ public class RegistrationKkmPage extends BasePage {
     public WebElement bntClosePop_apSuccessfullySaved;
 
     protected WebDriver driver;
+
     public RegistrationKkmPage selectAllFields() throws InterruptedException {
         webElementHelper
                 .click(fieldEntrepreneurshipObject)
@@ -83,7 +84,8 @@ public class RegistrationKkmPage extends BasePage {
                 .sendKeys(fieldAddressNameCompany, "Ак-Тилек 2");
         return this;
     }
-    public RegistrationKkmPage selectAllFields2(){
+
+    public RegistrationKkmPage selectAllFields2() {
         webElementHelper
                 .click(btnSelectAddressSalesPoint)
                 .click(fieldRegion)
@@ -111,9 +113,11 @@ public class RegistrationKkmPage extends BasePage {
         return this;
     }
 
-    public RegistrationKkmPage clickSaveKkm() {
+    public RegistrationKkmPage clickSaveKkm() throws InterruptedException {
         webElementHelper
-                .click(btnSaveKKM)
+                .click(btnSaveKKM);
+        Thread.sleep(3000);
+        webElementHelper
                 .click(bntClosePop_apSuccessfullySaved);
         return this;
     }

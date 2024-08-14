@@ -3,24 +3,29 @@
 <suite name="All Test Suite">
     <test name="tests">
         <classes>
-<!--            <class name="UI.registrationNpTest.RegistrationNpTest">-->
-<!--                <methods>-->
-<!--                    <include name="clickRegistrationNpTest"/>-->
-<!--                    <include name="inputFieldsAndClickNextTest"/>-->
-<!--                </methods>-->
-<!--&lt;!&ndash;            </class>&ndash;&gt;-->
+            <class name="UI.registrationNpTest.RegistrationNpTest">
+                <methods>
+                    <include name="clickRegistrationNpTest"/>
+                    <include name="inputFieldsAndClickNextTest"/>
+                </methods>
+            </class>
             <class name="UI.registrationNpTest.RegistrationNp2Test">
                 <methods>
 <!--                    <include name="clickRegistrationNpTest"/>-->
 <!--                    <include name="inputFieldsAndClickNextTest"/>-->
-<!--                    <include name="inputFieldAndDateTest"/>-->
-<!--                    <include name="downloadFileTest"/>-->
-<!--                    <include name="downloadFileInKgRuTest"/>-->
-<!--                    <include name="clickBtnSaveTest"/>-->
+                    <include name="inputFieldAndDateTest"/>
+                    <include name="downloadFileTest"/>
+                    <include name="downloadFileInKgRuTest"/>
+                    <include name="clickBtnSaveTest"/>
+                </methods>
+            </class>
+            <class name="UI.registrationNpTest.RegistrationKkmTest">
+                <methods>
                     <include name="clickOpenInfoNpTest"/>
                     <include name="clickRegistrationKkmTest"/>
                     <include name="selectAllFieldsTest"/>
                     <include name="saveKkmTest"/>
+                    <include name="downloadFileInfoKkm"/>
                 </methods>
             </class>
         </classes>

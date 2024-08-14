@@ -18,16 +18,16 @@ public class BaseTest {
     private static final Logger log = LoggerFactory.getLogger(BaseTest.class);
     protected WebDriver driver;
     protected WebElementHelper webElementHelper;
-    public AllPages allPages;
+    protected AllPages allPages;
 
 
     @BeforeSuite(alwaysRun = true)
     public void setUp() throws InterruptedException {
         driver = Driver.getDriver();
         webElementHelper = new WebElementHelper();
+        driver.get(getProperty("url"));
         allPages = new AllPages();
         allPages.initPage();
-        driver.get(getProperty("url"));
         allPages.loginPage.doLogin();
         Thread.sleep(1000);
         try{
@@ -37,6 +37,7 @@ public class BaseTest {
             log.error("Не найдена надпись 'ККМ'");
         }
     }
+
 
 
     @AfterSuite(alwaysRun = true)
